@@ -47,18 +47,18 @@ A centralized career navigation platform built for college students to discover 
 
 Team **Code Blooded** 💉
 
-| Name           | GitHub                                 | LinkedIn                                 |
-|----------------|----------------------------------------|------------------------------------------|
-| Sourav Kumar   | [sourav-kumar-357](https://github.com/sourav-kumar-357) | [Sourav Kumar](https://www.linkedin.com/in/souravkumar357) |
-| Riyanshu Sharma | [Sharmariyanshu](https://github.com/Sharmariyanshu) | `LinkedIn_Link_Here`                     |
-| Asif Nawaz | [asif-nawaz01](https://github.com/asif-nawaz01) | `LinkedIn_Link_Here`                     |
-| Kavita Mahato | [kavita-mahato](https://github.com/kavita-mahato) | `LinkedIn_Link_Here`                     |
-| Nikita Kumari | [nikita-kumari08](https://github.com/nikita-kumari08) | `LinkedIn_Link_Here`                     |
-| Priya Mehta | [Priya-Mehta436](https://github.com/Priya-Mehta436) | `LinkedIn_Link_Here`                     |
-| Aditya Raj | [adityyasinha](https://github.com/adityyasinha) | `LinkedIn_Link_Here`                     |
-| BalMukund Kumar | [mukund8294](https://github.com/mukund8294) | `LinkedIn_Link_Here`                     |
-| Megha Khakha | [megha-khakha01](https://github.com/megha-khakha01) | `LinkedIn_Link_Here`                     |
-|Farhan Danish | [farhan-danish17](https://github.com/farhan-danish17) | `LinkedIn_Link_Here`                     |
+| S.no. | Name of the member          | GitHub Account                             |
+| ---------|--------------------------|-------------------------------------------|
+| 01 | Sourav Kumar   | [sourav-kumar-357](https://github.com/sourav-kumar-357) |
+| 02 | Riyanshu Sharma | [Sharmariyanshu](https://github.com/Sharmariyanshu) |
+| 03 | Asif Nawaz | [asif-nawaz01](https://github.com/asif-nawaz01) | 
+| 04 | Kavita Mahato | [kavita-mahato](https://github.com/kavita-mahato) | 
+| 05 | Nikita Kumari | [nikita-kumari08](https://github.com/nikita-kumari08) |
+| 06 | Priya Mehta | [Priya-Mehta436](https://github.com/Priya-Mehta436) |
+| 07 | Aditya Raj | [adityyasinha](https://github.com/adityyasinha) | 
+| 08 | BalMukund Kumar | [mukund8294](https://github.com/mukund8294) |
+| 09 | Megha Khakha | [megha-khakha01](https://github.com/megha-khakha01) | 
+| 10 |Farhan Danish | [farhan-danish17](https://github.com/farhan-danish17) |
 
 ---
 
