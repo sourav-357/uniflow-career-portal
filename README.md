@@ -45,17 +45,20 @@ A centralized career navigation platform built for college students to discover 
 
 ## 👨‍💻 Contributors
 
-Team **Code Blooded** 💉  
-- [Sourav Kumar](https://github.com/souravkumar357)  
-- [Sourav Kumar](https://github.com/souravkumar357) 
-- [Sourav Kumar](https://github.com/souravkumar357) 
-- [Sourav Kumar](https://github.com/souravkumar357)  
-- [Sourav Kumar](https://github.com/souravkumar357) 
-- [Sourav Kumar](https://github.com/souravkumar357)  
-- [Sourav Kumar](https://github.com/souravkumar357)  
-- [Sourav Kumar](https://github.com/souravkumar357) 
-- [Sourav Kumar](https://github.com/souravkumar357)  
-- [Sourav Kumar](https://github.com/souravkumar357) 
+Team **Code Blooded** 💉
+
+| Name           | GitHub                                 | LinkedIn                                 |
+|----------------|----------------------------------------|------------------------------------------|
+| Sourav Kumar   | [@souravkumar357](https://github.com/souravkumar357) | [Sourav Kumar](https://www.linkedin.com/in/souravkumar357) |
+| Member 2       | `GitHub_Link_Here`                     | `LinkedIn_Link_Here`                     |
+| Member 3       | `GitHub_Link_Here`                     | `LinkedIn_Link_Here`                     |
+| Member 4       | `GitHub_Link_Here`                     | `LinkedIn_Link_Here`                     |
+| Member 5       | `GitHub_Link_Here`                     | `LinkedIn_Link_Here`                     |
+| Member 6       | `GitHub_Link_Here`                     | `LinkedIn_Link_Here`                     |
+| Member 7       | `GitHub_Link_Here`                     | `LinkedIn_Link_Here`                     |
+| Member 8       | `GitHub_Link_Here`                     | `LinkedIn_Link_Here`                     |
+| Member 9       | `GitHub_Link_Here`                     | `LinkedIn_Link_Here`                     |
+| Member 10      | `GitHub_Link_Here`                     | `LinkedIn_Link_Here`                     |
 
 ---
 
