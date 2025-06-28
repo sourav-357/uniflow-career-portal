@@ -50,7 +50,7 @@ Team **Code Blooded** 💉
 | Name           | GitHub                                 | LinkedIn                                 |
 |----------------|----------------------------------------|------------------------------------------|
 | Sourav Kumar   | [sourav-kumar-357](https://github.com/sourav-kumar-357) | [Sourav Kumar](https://www.linkedin.com/in/souravkumar357) |
-| Riyanshu Sharma | [Sharmariyanhsu](https://github.com/Sharmariyanhsu) | `LinkedIn_Link_Here`                     |
+| Riyanshu Sharma | [Sharmariyanshu](https://github.com/Sharmariyanshu) | `LinkedIn_Link_Here`                     |
 | Asif Nawaz | [asif-nawaz01](https://github.com/asif-nawaz01) | `LinkedIn_Link_Here`                     |
 | Kavita Mahato | [kavita-mahato](https://github.com/kavita-mahato) | `LinkedIn_Link_Here`                     |
 | Nikita Kumari | [nikita-kumari08](https://github.com/nikita-kumari08) | `LinkedIn_Link_Here`                     |
