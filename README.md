@@ -64,7 +64,22 @@ Team **Code Blooded** 💉
 
 ## 📁 Folder Structure
 
-<pre><code> ## 📁 Folder Structure ``` uniflow-career-portal/ ├── index.html ├── css/ │ └── style.css ├── js/ │ └── main.js ├── assets/ │ ├── images/ │ └── logos/ ├── mock-data/ │ ├── internships.json │ ├── placements.json │ └── hackathons.json └── README.md ``` </code></pre>
+```
+uniflow-career-portal/
+├── index.html
+├── css/
+│ └── style.css
+├── js/
+│ └── main.js
+├── assets/
+│ ├── images/
+│ └── logos/
+├── mock-data/
+│ ├── internships.json
+│ ├── placements.json
+│ └── hackathons.json
+└── README.md
+```
 
 
 ---
