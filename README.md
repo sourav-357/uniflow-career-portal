@@ -49,7 +49,7 @@ Team **Code Blooded** 💉
 
 | Name           | GitHub                                 | LinkedIn                                 |
 |----------------|----------------------------------------|------------------------------------------|
-| Sourav Kumar   | [@souravkumar357](https://github.com/souravkumar357) | [Sourav Kumar](https://www.linkedin.com/in/souravkumar357) |
+| Sourav Kumar   | [sourav-kumar-357](https://github.com/souravkumar357) | [Sourav Kumar](https://www.linkedin.com/in/souravkumar357) |
 | Member 2       | `GitHub_Link_Here`                     | `LinkedIn_Link_Here`                     |
 | Member 3       | `GitHub_Link_Here`                     | `LinkedIn_Link_Here`                     |
 | Member 4       | `GitHub_Link_Here`                     | `LinkedIn_Link_Here`                     |
