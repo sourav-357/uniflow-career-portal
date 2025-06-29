@@ -1,14 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <h3>Wecome to this Repository!</h3>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis nobis nulla aut tempora voluptatem similique!</p>
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uniflow Career Portal</title>
+    <!-- Add this before your stylesheet -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- === NAVIGATION BAR === -->
+    <header class="navbar">
+      <div class="nav-container">
+        <div class="brand">🎓 Uniflow</div>
+        <nav class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#problem">Problem</a>
+          <a href="#features">Features</a>
+          <a href="#vision">Vision</a>
+          <a href="#how">How It Works</a>
+          <a href="#recruiters">For Recruiters</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#join">Join Us</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- === HERO SECTION === -->
+    <section class="hero" id="home">
+      <video autoplay muted loop playsinline class="bg-video">
+        <source src="assets/videos/hero.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-content">
+        <h1><span class="brand-highlight">Uniflow</span> Career Portal</h1>
+        <p class="subtitle">
+          The all-in-one ecosystem for students to manage careers, track growth,
+          and seize opportunities — with zero chaos.
+        </p>
+        <p class="hero-description">
+          From internships to placements, from hackathons to real-time analytics
+          — Uniflow simplifies your journey from college to career with
+          unmatched precision, personalization, and performance.
+        </p>
+        <div class="cta-buttons">
+          <a href="#" class="btn primary">Sign In</a>
+          <a href="#" class="btn secondary">Sign Up</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- === FEATURES SECTION === -->
+    <section class="section scroll-reveal alt-bg" id="features">
+      <h2 class="section-title">🚀 Explore Key Features</h2>
+      <div class="grid features-grid">
+        <div class="feature-card">
+          <h3>🧠 Intelligent Profiles</h3>
+          <p>
+            Auto-matched opportunities based on your degree, CGPA, skill set,
+            and preferences.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>💼 Job & Internship Board</h3>
+          <p>
+            Centralized listings with filters that *actually* work. No clutter.
+            Just relevance.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>🏆 Hackathon Arena</h3>
+          <p>
+            Discover live hackathons, coding events, and innovation challenges
+            tailored to you.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>📄 Application Tracker</h3>
+          <p>
+            Real-time status, updates, reminders, and outcome analytics for
+            every application.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>📊 Personalized Analytics</h3>
+          <p>
+            See where you stand. Spot your gaps. Get career recommendations
+            dynamically.
+          </p>
+        </div>
+        <div class="feature-card">
+          <h3>🔐 Secure, Private, Trusted</h3>
+          <p>
+            No spam. No selling. Student-first, privacy-first platform with
+            secure data layers.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- === PROBLEM SECTION === -->
+    <section class="section scroll-reveal" id="problem">
+      <h2 class="section-title">🚧 The Career Chaos is Real</h2>
+      <div class="section-content centered">
+        <p>
+          Every student has felt it — the confusion, the panic, the constant
+          fear of missing out on something important. You're juggling college
+          lectures, projects, and side learning, while trying to hunt for
+          internships, placements, or hackathons scattered across dozens of
+          platforms. Google Forms from who-knows-where. Telegram links that
+          disappear. WhatsApp updates that arrive too late. No filters. No
+          structure. No clarity.
+        </p>
+        <br />
+        <p>
+          You don’t know which opportunity you’re eligible for. You don’t know
+          where to apply. You don’t even know if something relevant has already
+          slipped past. It’s not just disorganized — it’s unfair. Students waste
+          time and mental energy chasing broken systems that should be helping
+          them grow.
+        </p>
+        <br />
+        <p class="emphasis">
+          <strong
+            >Uniflow is the bridge. One dashboard. Real-time updates. No noise.
+            Total control.</strong
+          >
+        </p>
+      </div>
+    </section>
+
+    <!-- === WHY UNIFLOW === -->
+    <section class="section alt-bg scroll-reveal" id="why">
+      <h2 class="section-title">💡 Why Uniflow Matters</h2>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">📌</div>
+          <h3>One-Stop Career Hub</h3>
+          <p>
+            Internships, placements, hackathons — all in one place, updated in
+            real time.
+          </p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🎯</div>
+          <h3>Smart Opportunity Matching</h3>
+          <p>
+            Get auto-matched to listings based on your skills, CGPA, and year —
+            no guesswork.
+          </p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">⚡</div>
+          <h3>One-Click Applications</h3>
+          <p>
+            Apply to jobs and events instantly with a unified profile. Zero
+            forms, zero friction.
+          </p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">📢</div>
+          <h3>Power to TPOs</h3>
+          <p>
+            Placement teams can post jobs, events, and updates instantly — no
+            spreadsheets.
+          </p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🔔</div>
+          <h3>Live Notifications</h3>
+          <p>
+            Never miss a deadline. Get smart alerts for what matters most — on
+            time.
+          </p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🔒</div>
+          <h3>Privacy-First Platform</h3>
+          <p>
+            No spam. No data selling. Your profile and actions stay protected
+            and secure.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- === VISION SECTION === -->
+    <section class="section scroll-reveal" id="vision">
+      <h2 class="section-title">🌐 Our Vision</h2>
+      <div class="section-content centered">
+        <p>
+          We imagine a future where every college student has a crystal-clear
+          path from campus to career — no confusion, no missed chances, no
+          wasted effort. Uniflow isn’t just a tool; it’s an operating system for
+          student growth.Our mission is to eliminate the chaos from college
+          placements by building a single, intelligent, student-first platform —
+          one that understands your background, tracks your progress, shows you
+          what’s next, and helps you take action instantly.
+        </p>
+        <br />
+        <p class="emphasis">
+          We’re here to empower over 1 million students with transparent data,
+          smarter discovery, and access to real, relevant opportunities — all in
+          one powerful ecosystem, built with community at its core.
+        </p>
+      </div>
+    </section>
+
+    <!-- === HOW IT WORKS === -->
+    <section class="section scroll-reveal" id="howitworks">
+      <h2 class="section-title">🧭 How Uniflow Works</h2>
+      <div class="how-grid">
+        <div class="how-step">
+          <div class="step-number">1</div>
+          <h3>Create Your Career ID</h3>
+          <p>
+            Sign up and instantly generate your Uniflow Career ID. Add your
+            branch, CGPA, year, skills, and interests. This profile becomes your
+            passport to every opportunity.
+          </p>
+        </div>
+        <div class="how-step">
+          <div class="step-number">2</div>
+          <h3>Explore Career Zones</h3>
+          <p>
+            Access 3 live zones — <strong>Internships</strong>,
+            <strong>Placements</strong>, and <strong>Hackathons</strong>. See
+            ongoing, upcoming, and even past listings with start dates,
+            deadlines, and eligibility status.
+          </p>
+        </div>
+        <div class="how-step">
+          <div class="step-number">3</div>
+          <h3>Know Where You Stand</h3>
+          <p>
+            For each opportunity, Uniflow shows whether you’re eligible — and
+            <strong>why or why not</strong>. Instantly see missing skills, CGPA
+            gaps, or branch restrictions. No more guesswork.
+          </p>
+        </div>
+        <div class="how-step">
+          <div class="step-number">4</div>
+          <h3>Apply or Upskill</h3>
+          <p>
+            Match? Apply in one click. Not eligible? Get guided skill
+            recommendations to close the gap. See what’s required and start
+            preparing — no external tools needed.
+          </p>
+        </div>
+        <div class="how-step">
+          <div class="step-number">5</div>
+          <h3>Track & Reflect</h3>
+          <p>
+            View the full timeline of past hackathons — including problem
+            statements and company tracks — to practice or build portfolios.
+            Analyze your application history with real insights.
+          </p>
+        </div>
+        <div class="how-step">
+          <div class="step-number">6</div>
+          <h3>Update Anytime</h3>
+          <p>
+            Your profile evolves with you. Add new skills, certificates,
+            projects, and career goals. Uniflow auto-adapts your matches as you
+            grow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- === TESTIMONIALS === -->
+    <section class="section scroll-reveal" id="testimonials">
+      <h2 class="section-title">🗣️ What Students Are Saying</h2>
+      <div class="testimonial-slider">
+        <div class="testimonial-card active">
+          <div class="testimonial-content">
+            <img src="https://i.pravatar.cc/100?img=25" alt="Avatar" />
+            <blockquote>
+              <p>
+                “Uniflow made placements actually manageable. I track all my
+                applications and get real eligibility insights. It saves me hours
+                every week.”
+              </p>
+              <br>
+              <footer>
+                <strong>@ananya_03</strong> — 3rd Year, CSE
+              </footer>
+            </blockquote>
+          </div>
+          <button class="arrow left">&#8592;</button>
+          <button class="arrow right">&#8594;</button>
+        </div>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+
+        <!-- Navigation Arrows -->
+        <button class="arrow left" onclick="prevTestimonial()">&#8592;</button>
+        <button class="arrow right" onclick="nextTestimonial()">&#8594;</button>
+      </div>
+      <div class="dots"></div>
+    </section>
+
+    <!-- === JOIN US === -->
+    <section class="section scroll-reveal call-to-action" id="join">
+      <h2 class="section-title">🌟 Ready to Redefine Careers?</h2>
+      <p>
+        Whether you’re a student navigating the maze of opportunities, a TPO aiming for smarter placements, or a recruiter looking for truly job-ready candidates — Uniflow is your game-changer. It’s not just a platform. It’s your edge in the career race. One dashboard. Zero noise. Full control.
+      </p>
+      <br>
+      <p>
+        Join the revolution that’s rewriting how students discover, prepare, and succeed. From resume-ready analytics to one-click applications and real-time eligibility — Uniflow isn't just helping students get placed, it's helping them grow.
+      </p>
+      <br>
+      <div class="cta-buttons">
+        <a href="#" class="btn primary">Explore Demo</a>
+        <a href="#" class="btn secondary">Contribute on GitHub</a>
+      </div>
+    </section>
+
+    <!-- === FOOTER === -->
+    <footer class="footer scroll-reveal" id="contact">
+      <div class="footer-brand">Uniflow Career Portal</div>
+      <p>
+        Designed & built by Team Code Blooded — Empowering students across India
+        🇮🇳
+      </p>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how">How It Works</a></li>
+            <li><a href="#recruiters">Recruiters</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Community</h4>
+          <ul>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:teamcodeblooded@gmail.com">Email Us</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Open Roles</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2025 Uniflow. All rights reserved.</div>
+    </footer>
+  </body>
 </html>
