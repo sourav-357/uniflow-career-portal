@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up | Uniflow Career Portal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- === HEADER === -->
+    <header class="signup-header">
+      <img src="careerLogo.png" alt="Uniflow Logo" class="signup-logo" />
+      <h1 class="signup-heading">
+        <span class="brand-accent">Uniflow</span> Sign Up
+      </h1>
+      <p class="signup-subheading">
+        Build your career profile. Unlock future opportunities.
+      </p>
+    </header>
+
+    <!-- === SIGN UP FORM === -->
+    <main class="signup-wrapper">
+      <form class="signup-form">
+        <!-- LEFT PANEL -->
+        <div class="form-panel">
+          <h2 class="panel-title">Basic Information</h2>
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Email Address" required />
+          <input type="tel" placeholder="Phone Number" required />
+          <input
+            type="text"
+            placeholder="Headline (e.g. Web Developer, Designer)"
+          />
+
+          <h2 class="panel-title">Education</h2>
+          <input type="text" placeholder="College Name" />
+          <input type="text" placeholder="Branch Name" />
+          <input type="text" placeholder="Degree (e.g. B.Tech CSE)" />
+          <input
+            type="number"
+            placeholder="Graduation Year"
+            min="2024"
+            max="2030"
+          />
+          <select required>
+            <option disabled selected>Select Current Year</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+          </select>
+        </div>
+
+        <!-- RIGHT PANEL -->
+        <div class="form-panel">
+          <h2 class="panel-title">Experience & Links</h2>
+          <input type="text" placeholder="Internship / Company Name" />
+          <input
+            type="text"
+            placeholder="Duration (e.g. Jan 2023 - Jul 2023)"
+          />
+          <input type="url" placeholder="LinkedIn Profile URL" />
+          <input type="url" placeholder="GitHub Profile URL" />
+          <input type="file" accept="image/*" title="Upload Profile Picture" />
+
+          <h2 class="panel-title">About You</h2>
+          <textarea placeholder="Tell us about yourself..." rows="3"></textarea>
+
+          <h2 class="panel-title">Skills</h2>
+          <div class="skills-container" id="skillsContainer"></div>
+          <div class="skill-input-group">
+            <input type="text" id="skillInput" placeholder="Enter a skill" />
+            <button type="button" onclick="addSkill()">+ Add</button>
+          </div>
+
+          <textarea
+            placeholder="Achievements (Certifications, Awards, etc.)"
+            rows="2"
+          ></textarea>
+          <textarea placeholder="Hobbies / Interests" rows="2"></textarea>
+        </div>
+      </form>
+    </main>
+
+    <!-- === SUBMIT === -->
+    <div class="signup-submit">
+      <button class="btn primary">Create Account</button>
+      <p class="switch-link">
+        Already have an account? <a href="../signin_Page/index.html">Sign In</a>
+      </p>
+    </div>
+
+    <!-- === FOOTER === -->
+    <footer class="footer">
+      <div class="footer-brand">🎓 Uniflow Career Portal</div>
+      <p class="footer-tagline">
+        Purpose-built for students. Designed to help you grow.
+      </p>
+      <div class="footer-bottom">© 2025 Uniflow. All rights reserved.</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,253 @@
+:root {
+  --primary: #4f46e5;
+  --primary-light: #6c63ff;
+  --accent: #00d1ff;
+  --text-dark: #111827;
+  --text-light: #ffffff;
+  --muted: #64748b;
+  --card-bg: #f9fafe;
+  --input-bg: #f1f5f9;
+  --input-border: #d1d5db;
+  --shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+  --radius: 12px;
+  --transition: all 0.3s ease;
+  --gradient: linear-gradient(to right, #5355e4, #8f64f5);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--gradient);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+/* HEADER */
+.signup-header {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  background-color: #000e21;
+}
+
+.signup-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.signup-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-light);
+}
+
+.brand-accent {
+  color: var(--accent);
+}
+
+.signup-subheading {
+  font-size: 1rem;
+  color: #b5c6f0;
+  margin-top: 0.5rem;
+}
+
+/* FORM WRAPPER */
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem 1rem;
+}
+
+.signup-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  background-color: var(--card-bg);
+  padding: 2.5rem 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-width: 1100px;
+  width: 100%;
+}
+
+/* PANELS */
+.form-panel {
+  flex: 1;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* TITLES */
+.panel-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin: 10px 0 4px;
+}
+
+/* INPUTS */
+input,
+select,
+textarea {
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--input-border);
+  background-color: var(--input-bg);
+  font-size: 0.95rem;
+  color: var(--text-dark);
+  transition: var(--transition);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--primary);
+  outline: none;
+}
+
+/* PLACEHOLDER */
+input::placeholder,
+textarea::placeholder {
+  color: #888;
+}
+
+/* FILE INPUT OVERRIDE */
+input[type="file"] {
+  background-color: transparent;
+  padding: 8px 0;
+}
+
+/* TEXTAREA */
+textarea {
+  resize: vertical;
+}
+
+/* SKILLS */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background-color: var(--primary);
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.skill-tag span {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.skill-input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.skill-input-group input {
+  flex: 1;
+}
+
+.skill-input-group button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.skill-input-group button:hover {
+  background-color: var(--primary-light);
+}
+
+/* SUBMIT */
+.signup-submit {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.btn.primary {
+  background-color: var(--primary);
+  color: var(--text-light);
+  border: none;
+  padding: 14px 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn.primary:hover {
+  background-color: var(--primary-light);
+}
+
+.switch-link {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: var(--text-light);
+}
+
+.switch-link a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.switch-link a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #000e21;
+  color: #7ca3d4;
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+
+.footer-brand {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+}
+
+.footer-tagline {
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  font-size: 0.95rem;
+  color: #b5c6f0;
+}
+
+.footer-bottom {
+  font-size: 0.85rem;
+  color: #89a8d4;
+  border-top: 1px solid #1f3a5f;
+  padding-top: 1.2rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .signup-form {
+    flex-direction: column;
+    gap: 32px;
+  }
+}

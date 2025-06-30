@@ -137,6 +137,20 @@ body {
   font-size: 0.85rem;
   margin-bottom: 1.5rem;
 }
+.auth-logo {
+  animation: dropIn 0.7s ease;
+}
+
+@keyframes dropIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 .auth-options a {
   color: var(--primary);
