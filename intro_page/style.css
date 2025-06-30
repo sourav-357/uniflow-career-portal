@@ -102,25 +102,38 @@ body {
   font-size: 1rem;
   margin-bottom: 2rem;
 }
-.cta-buttons {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-}
-.btn {
-  padding: 0.75rem 1.5rem;
+.cta-buttons .btn {
+  padding: 0.9rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
   border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: 0.3s ease;
-}
-.btn.primary {
-  background-color: #ffffff;
-  color: #4f46e5;
-  font-weight: 600;
-  padding: 0.75rem 1.6rem;
-  border-radius: 10px;
   transition: all 0.3s ease;
+  margin: 0.5rem;
+}
+
+.btn.primary {
+  background: #1e88e5;
+  color: white;
+  border: none;
+}
+
+.btn.primary:hover {
+  background: #1565c0;
+  box-shadow: 0 0 12px rgba(30, 136, 229, 0.4);
+  transform: translateY(-2px);
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 2px solid #1e88e5;
+  color: #1e88e5;
+}
+
+.btn.secondary:hover {
+  background: #1e88e5;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 0 12px rgba(30, 136, 229, 0.3);
 }
 
 .why-grid {
@@ -553,4 +566,9 @@ body {
   background: #007bff;
   color: #fff;
   transform: scale(1.05);
+}
+
+body.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
 }
