@@ -91,5 +91,13 @@
         </div>
       </div>
     </footer>
+    <script>
+      document
+        .querySelector(".auth-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault(); // prevent actual form submission
+          window.location.href = "../Home_page/index.html"; // redirect manually
+        });
+    </script>
   </body>
 </html>

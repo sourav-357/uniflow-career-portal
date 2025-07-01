@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore hackathons, internships, placements, and skill resources on Uniflow Career Portal."
+    />
+    <meta name="author" content="Team Code Blooded" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container head">
+        <div class="logo">
+          <img src="logo.jpg" alt="Uniflow Logo" loading="lazy" />
+          <span>Uniflow</span>
+        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Hackathons</a></li>
+            <li><a href="#">Internships</a></li>
+            <li><a href="#">Placements</a></li>
+          </ul>
+        </nav>
+        <div class="user-actions">
+          <div class="search-bar">
+            <div class="search-filter">
+              <button class="filter-toggle">
+                All <i class="fas fa-chevron-down"></i>
+              </button>
+              <div class="filter-dropdown">
+                <button type="button" data-filter="all">All</button>
+                <button type="button" data-filter="hackathons">
+                  Hackathons
+                </button>
+                <button type="button" data-filter="internships">
+                  Internships
+                </button>
+                <button type="button" data-filter="placements">
+                  Placements
+                </button>
+              </div>
+            </div>
+            <input type="text" placeholder="Search opportunities..." />
+            <button class="search-button"><i class="fas fa-search"></i></button>
+          </div>
+          <div class="user-profile" id="profileMenu">
+            <div class="profile-content">
+              <img
+                src="https://illustrations.popsy.co/violet/woman-with-short-hair-avatar.svg"
+                alt="Animated Avatar"
+                loading="lazy"
+                class="profile-img"
+              />
+              <span class="profile-greeting">Hi, Kavita!</span>
+            </div>
+
+            <!-- Dropdown Menu -->
+            <div class="profile-dropdown glassy-dropdown" id="profileDropdown">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><i class="fa-solid fa-user"></i>&#160;&#160;My Profile</a
+                  >
+                </li>
+                <li>
+                  <a href="../intro_page/index.html"
+                    ><i class="fa-solid fa-right-from-bracket"></i
+                    >&nbsp;Logout</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section (Signed-In) -->
+    <section class="hero-signed-in">
+      <div class="container hero">
+        <div class="hero-content">
+          <h1>Welcome Back, <span class="highlight">Kavita!</span></h1>
+          <p class="subtitle">Your career journey just got more exciting!</p>
+
+          <div class="motivational-quote">
+            <div class="quote-icon">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="quote-content">
+              <blockquote>
+                Your potential is limitless. Every bit of effort you put in
+                today is shaping the victories of your tomorrow. Preparation
+                isn't optional — it's the price of achieving greatness.
+              </blockquote>
+              <cite>- Zayden Frost</cite>
+            </div>
+          </div>
+
+          <div class="progress-motivation">
+            <div class="progress-text">
+              <span>You're making great progress!</span>
+              <strong>75% of your weekly goals completed</strong>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="https://illustrations.popsy.co/pink/woman-with-a-laptop.svg"
+            alt="Career growth illustration"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="quick-stats lazy-section" data-delay="0.2s">
+      <div class="container">
+        <h2 class="section-heading">Take a Quick Look!</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <h3>5</h3>
+            <p>Upcoming Hackathons</p>
+          </div>
+          <div class="stat-card">
+            <h3>12</h3>
+            <p>New Internships</p>
+          </div>
+          <div class="stat-card">
+            <h3>3</h3>
+            <p>Placement Drives</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Personalized Recommendations -->
+    <section class="recommendations lazy-section" data-delay="0.4s">
+      <div class="container">
+        <h2>Recommended for You</h2>
+        <div class="recommendation-grid">
+          <div class="opportunity-card">
+            <div class="opportunity-header">
+              <h3>Adobe India Hackathon</h3>
+              <p class="opportunity-meta">AI/ML Track | Prize: $10K</p>
+            </div>
+            <div class="opportunity-description">
+              <p>
+                Join India's premier AI/ML hackathon with challenges set by
+                Adobe's product teams. Perfect opportunity to showcase your
+                skills to industry leaders. Winners get cash prizes and
+                interview opportunities.
+              </p>
+            </div>
+            <div class="opportunity-footer">
+              <a href="#" class="btn-apply">Register</a>
+            </div>
+          </div>
+
+          <div class="opportunity-card">
+            <div class="opportunity-header">
+              <h3>Google Summer Internship</h3>
+              <p class="opportunity-meta">
+                Software Engineering | Deadline: Jun 30
+              </p>
+            </div>
+            <div class="opportunity-description">
+              <p>
+                12-week immersive internship at Google's Bangalore office. Work
+                on real projects alongside experienced engineers. Strong
+                performance may lead to pre-placement offers.
+              </p>
+            </div>
+            <div class="opportunity-footer">
+              <a href="#" class="btn-apply">Apply Now</a>
+            </div>
+          </div>
+
+          <div class="opportunity-card">
+            <div class="opportunity-header">
+              <h3>Amazon Placements</h3>
+              <p class="opportunity-meta">SDE Roles | CTC: 18 LPA</p>
+            </div>
+            <div class="opportunity-description">
+              <p>
+                Full-time SDE positions open across Amazon India locations.
+                Comprehensive training program for new graduates. Focus on
+                distributed systems and cloud technologies.
+              </p>
+            </div>
+            <div class="opportunity-footer">
+              <a href="#" class="btn-apply">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Application Tracker -->
+    <section class="application-tracker lazy-section" data-delay="0.6s">
+      <div class="container">
+        <h2>Your Applications</h2>
+        <div class="tracker-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Role</th>
+                <th>Company</th>
+                <th>Status</th>
+                <th>Deadline</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Software Development Intern</td>
+                <td>Microsoft</td>
+                <td><span class="status-under-review">Under Review</span></td>
+                <td>Jul 15</td>
+              </tr>
+              <tr>
+                <td>Software Development Intern</td>
+                <td>Goldman Sachs</td>
+                <td><span class="status-accepted">Accepted</span></td>
+                <td>Jun 20</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog & Resource Hub -->
+    <section class="blog-resources lazy-section" data-delay="0.8s">
+      <div class="container">
+        <h2>Career Resource Hub</h2>
+        <p class="section-subtitle">
+          Learn, prepare, and stay ahead with curated insights
+        </p>
+
+        <!-- Featured Articles -->
+        <div class="featured-articles">
+          <h3>Featured Reads</h3>
+          <div class="article-grid">
+            <!-- Career Tips -->
+            <div class="article-card career-tips">
+              <div class="article-content">
+                <h4>How to Craft a Resume That Gets Shortlisted</h4>
+                <p>
+                  Learn the 5 key elements recruiters look for in 2025, with
+                  examples from top candidates.
+                </p>
+                <a href="#" class="btn-read"
+                  >Read More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- Industry Trends -->
+            <div class="article-card industry-trends">
+              <div class="article-content">
+                <h4>AI in 2024: Skills You Need to Stay Relevant</h4>
+                <p>
+                  From prompt engineering to ethical AI, here’s what tech
+                  recruiters are prioritizing.
+                </p>
+                <a href="#" class="btn-read"
+                  >Read More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <!-- Hackathon Strategies -->
+            <div class="article-card hackathon-strategies">
+              <div class="article-content">
+                <h4>How We Won SIH 2024: A Team’s Playbook</h4>
+                <p>
+                  Step-by-step strategy from ideation to pitch, with code
+                  snippets and judge feedback.
+                </p>
+                <a href="#" class="btn-read"
+                  >Read More <i class="fas fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Resource Categories -->
+        <div class="resource-categories lazy-section" data-delay="0.4s">
+          <h3>Explore more...</h3>
+          <div class="category-tabs">
+            <button class="tab-btn active" data-tab="career-tips">
+              Career Tips
+            </button>
+            <button class="tab-btn" data-tab="industry-trends">
+              Industry Trends
+            </button>
+          </div>
+
+          <div class="tab-content active" id="career-tips">
+            <div class="resource-list">
+              <div class="resource-item">
+                <i class="fas fa-file-alt"></i>
+                <div class="resource-details">
+                  <h4>The Ultimate Guide to LinkedIn Optimization</h4>
+                  <p>
+                    Increase recruiter visibility by 3x with these profile
+                    hacks.
+                  </p>
+                  <a href="#" class="btn-download">Download PDF</a>
+                </div>
+              </div>
+              <div class="resource-item">
+                <i class="fas fa-video"></i>
+                <div class="resource-details">
+                  <h4>Negotiating Your First Job Offer</h4>
+                  <p>15-minute video with scripts for salary discussions.</p>
+                  <a href="#" class="btn-watch">Watch Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-content" id="industry-trends">
+            <div class="resource-list">
+              <div class="resource-item">
+                <i class="fas fa-chart-line"></i>
+                <div class="resource-details">
+                  <h4>2025 Tech Salary Report</h4>
+                  <p>Compare packages across FAANG+ and startups.</p>
+                  <a href="#" class="btn-download">View Report</a>
+                </div>
+              </div>
+              <div class="resource-item">
+                <i class="fas fa-microchip"></i>
+                <div class="resource-details">
+                  <h4>Quantum Computing Primer</h4>
+                  <p>
+                    What every CS student should know about this emerging field.
+                  </p>
+                  <a href="#" class="btn-download">Read Guide</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="footer scroll-reveal lazy-section"
+      data-delay="0.4s"
+      id="contact"
+    >
+      <div class="footer-brand">Uniflow Career Portal</div>
+      <p>
+        Designed & built by Team Code Blooded — Empowering students across India
+        🇮🇳
+      </p>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how">How It Works</a></li>
+            <li><a href="#recruiters">Recruiters</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Community</h4>
+          <ul>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:teamcodeblooded@gmail.com">Email Us</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Open Roles</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2025 Uniflow. All rights reserved.</div>
+    </footer>
+  </body>
+</html>
