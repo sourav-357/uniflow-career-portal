@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackathon Arena | Uniflow</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a2d9b6ad86.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="Hackthon.css" />
+  </head>
+  <body>
+    <!-- ===== NAVIGATION BAR ===== -->
+    <header class="navbar" role="banner">
+      <div class="nav-container">
+        <div class="brand">
+          <a href="../Home_page/index.html" aria-label="Uniflow Home">🎓 Uniflow</a>
+        </div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="../Home_page/index.html">Home</a>
+          <a href="#" class="active" aria-current="page">Hackathons</a>
+          <a href="#">Internships</a>
+          <a href="#">Placements</a>
+          <a href="#">Skills</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>🚀 Hackathon Arena</h1>
+        <p>Find and join the most exciting hackathons of 2024–2025. Build, learn, and win with the best teams and mentors!</p>
+      </div>
+    </section>
+
+    <!-- ===== MAIN SECTION ===== -->
+    <main class="hackathon-section" id="main-content">
+      <!-- === FILTER BAR === -->
+      <div class="filter-bar">
+        <div class="pill-filters" role="tablist" aria-label="Hackathon status filters">
+          <button class="pill active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="pill" data-filter="upcoming" role="tab" aria-selected="false">Upcoming</button>
+          <button class="pill" data-filter="ongoing" role="tab" aria-selected="false">Ongoing</button>
+          <button class="pill" data-filter="past" role="tab" aria-selected="false">Past</button>
+        </div>
+        <div class="search-sort-bar">
+          <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search hackathons..." autocomplete="off" />
+            <span class="search-icon"><i class="fas fa-search"></i></span>
+          </div>
+          <div class="sort-dropdown">
+            <select id="sortSelect" aria-label="Sort hackathons">
+              <option value="dateDesc">Newest</option>
+              <option value="dateAsc">Oldest</option>
+              <option value="prize">Prize</option>
+              <option value="name">Name</option>
+            </select>
+            <span class="dropdown-icon"><i class="fas fa-chevron-down"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- === HACKATHON GRID === -->
+      <section id="hackathonGrid" class="hackathon-grid" aria-live="polite" aria-label="Hackathon list">
+        <!-- Cards will be injected by JS -->
+      </section>
+    </main>
+
+    <!-- ===== HACKATHON DETAILS MODAL ===== -->
+    <div id="detailsModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" style="display:none;">
+      <div class="modal-content">
+        <button class="close-btn" aria-label="Close details"><i class="fas fa-times"></i></button>
+        <div class="modal-header">
+          <h2 id="modalTitle">Hackathon Title</h2>
+          <p id="modalMeta">Domain | Prize | Date</p>
+        </div>
+        <div class="modal-body">
+          <p id="modalDescription">Full hackathon details will appear here when selected.</p>
+          <ul id="modalInfoList">
+            <!-- Bullet point info populated by JS -->
+          </ul>
+          <div class="modal-footer">
+            <a class="btn apply-btn" id="modalApplyBtn" href="#" target="_blank" rel="noopener">Apply / Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" role="contentinfo">
+      <div class="footer-brand">Uniflow Career Portal</div>
+      <p>Designed & built by Team Code Blooded — Empowering students across India 🇮🇳</p>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Platform</h4>
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Recruiters</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Community</h4>
+          <ul>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:teamcodeblooded@gmail.com">Email Us</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Open Roles</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2025 Uniflow. All rights reserved.</div>
+    </footer>
+
+    <!-- === SCRIPTS === -->
+    <script src="script.js"></script>
+  </body>
+</html>
