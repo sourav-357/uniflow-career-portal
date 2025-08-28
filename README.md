@@ -40,7 +40,7 @@ This project is not just a form—it’s the **foundation of a future-ready plat
 - **Google Fonts (Poppins)** → Clean and modern typography.  
 
 No external frameworks were used — everything was built **from scratch** to strengthen core frontend fundamentals.  
-
+    
 ---
 
 ## 🎯 Learning Outcomes
