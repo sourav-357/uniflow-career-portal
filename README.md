@@ -3,6 +3,7 @@
 Uniflow Career Portal is a modern **student-focused career platform** built using **HTML, CSS, and JavaScript**.  
 It provides an intuitive way for students to **sign up, create a digital career profile, and present themselves professionally** to future opportunities.  
 
+
 Unlike a simple resume, Uniflow is designed as an **interactive portal** where students can highlight their **education, experience, skills, achievements, and personal interests** in a structured, engaging format.  
 
 ---
