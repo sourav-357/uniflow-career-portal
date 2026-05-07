@@ -17,20 +17,7 @@ Uniflow Career Portal was built to solve this problem by:
 - ✅ Allowing developers (like me) to **practice building real-world career portals**.  
 - ✅ Simulating how large-scale professional platforms work, but tailored for **students at different stages of college**.  
 
-This project is not just a form—it’s the **foundation of a future-ready platform** that can evolve into a full-stack career management system.  
-
----
-
-## ✨ Key Features
-- 📝 **Personal Details** – Full name, email, phone number, and professional headline.  
-- 🎓 **Education Information** – College, branch, degree, graduation year, and current academic year.  
-- 💼 **Experience & Links** – Add internships, job experience, GitHub, and LinkedIn profiles.  
-- 🖼️ **Profile Picture Upload** – A personal touch for each student profile.  
-- 🏷️ **Dynamic Skills Manager** – Add and remove skill tags interactively without reloading the page.  
-- 🏆 **Achievements & Certifications** – Highlight awards, certificates, and recognitions.  
-- 🎨 **Modern UI/UX** – Gradient backgrounds, smooth shadows, clean layout, and responsive design.  
-- 📱 **Mobile-Friendly** – Works seamlessly on desktop and mobile devices.  
-- 🔄 **User Flow Simulation** – Sign-up with an option to redirect to login (simulating a real career portal flow).  
+This project is not just a form—it’s the **foundation of a future-ready platform** that can evolve into a full-stack career management system.   
 
 ---
 
