@@ -45,17 +45,6 @@ This project was not just about coding — it was about **building something mea
 
 ---
 
-## 🔮 Future Vision
-This is just **Version 1 (Frontend Prototype)**. The long-term vision for **Uniflow** is:  
-- 🔐 **User Authentication** – Login/Sign-up system with secure credentials.  
-- 🗄️ **Database Integration** – Store student profiles in MongoDB/Firebase.  
-- 🏢 **Recruiter Dashboard** – Enable companies to search and filter student profiles.  
-- 📊 **Analytics & Insights** – Help students see skill gaps and track growth.  
-- 🌐 **Deployment** – Make Uniflow live and accessible to students worldwide.  
-- 🤝 **Collaboration Features** – Students can endorse each other’s skills and connect.  
-
----
-
 ## 📌 Why This Project Matters
 - 💡 Shows initiative and creativity in solving a **real-world problem for students**.  
 - 🧑‍💻 Demonstrates **practical frontend skills** beyond tutorials.  
